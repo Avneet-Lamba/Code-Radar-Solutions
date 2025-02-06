@@ -3,7 +3,7 @@
   //  return "Welcome to Code Radar!";
 int main() {
     double num;
-    scanf("%If",& num);
-    printf("You entred: %If\n",num);
+    scanf("%lf",& num);
+    printf("You entred: %lf\n",num);
     return 0;
 }
