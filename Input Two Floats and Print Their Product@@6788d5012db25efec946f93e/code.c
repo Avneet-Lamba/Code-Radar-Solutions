@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float num1, num2, product;
-    scanf("%f %f" , &num1, num2);
-    Product= num1*num2;
-    printf("product: %.2f\n",Product);
+    float a,b;
+    scanf("%f %f" , &a, &b);
+    Product= a*b;
+    printf("Product: %.2f\n", a*b);
     return 0;
 }
