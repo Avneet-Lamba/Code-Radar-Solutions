@@ -1,9 +1,9 @@
 #include <stdio.h>
-//char* welcome() {
-  //  return "Welcome to Code Radar!";
 int main() {
-    double num;
-    scanf("%if",& num);
-    printf("You entred: %if\n",num);
+    float n;
+    scanf("%.4f",&n);
+    printf("You entred: %.4f\n",n)
+
+    
     return 0;
 }
