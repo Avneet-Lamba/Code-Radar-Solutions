@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     float n;
-    scanf("%|f",&n);
-    printf("You entred: %.4|f\n",n);
+    scanf("%lf",&n);
+    printf("You entred: %.4lf\n",n);
 
     
     return 0;
