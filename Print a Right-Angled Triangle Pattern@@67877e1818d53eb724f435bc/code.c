@@ -2,7 +2,6 @@
 
 int main() {
     int n;
-    printf("Enter the value of n: ");
     scanf("%d", &n);  // Read the value of n
 
     for (int i = 1; i <= n; i++) { // Loop for rows
